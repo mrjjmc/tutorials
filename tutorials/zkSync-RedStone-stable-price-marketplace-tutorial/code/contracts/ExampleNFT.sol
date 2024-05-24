@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 contract ExampleNFT is ERC721Enumerable {
   uint256 private nextTokenId = 1;
 
-  constructor() ERC721("ExampleNFT", "ENFT") {}
+  constructor() ERC721("GoldNFT", "GNFT") {}
 
   function mint() external {
     _mint(msg.sender, nextTokenId);
