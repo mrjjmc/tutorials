@@ -15,7 +15,7 @@ const zkSyncTestnet =
       }
     : {
         url: "https://zksync2-testnet.zksync.dev",
-        ethNetwork: "goerli",
+        ethNetwork: "sepolia",
         zksync: true,
         // contract verification endpoint
         verifyURL:
